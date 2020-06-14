@@ -12,11 +12,11 @@
     "android-dev-release": "react-native run-android --variant=devRelease  --appIdSuffix=dev",
     "android-stag-release": "react-native run-android --variant=stagRelease  --appIdSuffix=stag",
     "android-prod-release": "react-native run-android --variant=prodRelease",
-
     "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-firebase/app": "7.2.1",
     "react": "16.11.0",
     "react-native": "0.62.2",
     "react-native-config": "^1.2.1"
