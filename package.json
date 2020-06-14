@@ -6,6 +6,13 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
+    "android-dev-debug": "react-native run-android --variant=devDebug --appIdSuffix=dev",
+    "android-stag-debug": "react-native run-android --variant=stagDebug --appIdSuffix=stag",
+    "android-prod-debug": "react-native run-android --variant=prodDebug",
+    "android-dev-release": "react-native run-android --variant=devRelease  --appIdSuffix=dev",
+    "android-stag-release": "react-native run-android --variant=stagRelease  --appIdSuffix=stag",
+    "android-prod-release": "react-native run-android --variant=prodRelease",
+
     "test": "jest",
     "lint": "eslint ."
   },
